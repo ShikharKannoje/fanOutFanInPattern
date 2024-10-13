@@ -1,4 +1,4 @@
-# fanOutFanInPattern
+# Fan-Out Fan-In Pattern
 When you need to split a task into multiple sub-tasks and then combine the results, the Fan-Out, Fan-In pattern is your go-to solution.
 This pattern is particularly useful for parallel processing of data or when you need to distribute work across multiple goroutines and then aggregate the results.
 The Fan-Out part involves distributing the work to multiple goroutines or functions that can run concurrently.
